@@ -1,7 +1,7 @@
-# 2017-18 NBA Season: Team Performance Dashboard
+# 2016-17 NBA Season: Team Performance Dashboard
 
 An interactive Tableau dashboard analyzing team efficiency, game pace, and regular-season 
-success across the 2017-18 NBA regular season. This project evaluates 30 unique teams 
+success across the 2016-17 NBA regular season. This project evaluates 30 unique teams 
 to separate volume-based success from underlying structural advantages.
 
 👉 [View the Interactive Dashboard on Tableau Public] (https://public.tableau.com/views/_twbx_17782154814180/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
