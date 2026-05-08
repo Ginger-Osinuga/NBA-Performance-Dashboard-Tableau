@@ -4,7 +4,7 @@ An interactive Tableau dashboard analyzing team efficiency, game pace, and regul
 success across the 2017-18 NBA regular season. This project evaluates 30 unique teams 
 to separate volume-based success from underlying structural advantages.
 
-👉 [View the Interactive Dashboard on Tableau Public](YOUR_TABLEAU_PUBLIC_LINK_HERE)
+👉 [View the Interactive Dashboard on Tableau Public] (https://public.tableau.com/views/_twbx_17782154814180/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
 
 ### Visual Layers
 * **Regular Season Winners:** A ranked horizontal bar chart displaying top-performing teams by total wins.
