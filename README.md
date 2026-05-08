@@ -16,10 +16,18 @@ The raw historical data sourced via Kaggle contained structural trailing artifac
 
 1. **String Normalization:** Handled duplicate franchise entries and removed trailing asterisk markers (`*`) from raw dimensions using targeted calculation logic:
    ```tableau
-   TRIM(REPLACE([Team], "*", ""))
+   TRIM(REPLACE([Team], "*", "")) ```
 
-   ```
-2. **Dashboard Actions & Scoping:** Configured global filtering cards across multiple worksheets to ensure seamless cross-chart interaction and synchronized data state.
+2. **Category Standardization:** Standardized team and categorical dimension naming conventions to ensure consistent filtering, grouping, and aggregation behavior across worksheets.
+3. **Data Validation:** Verified that cleaned dimension values propagated consistently throughout all visualizations, calculations, and dashboard filters.
+4. **Calculated Field Engineering:** Built calculated fields to support dynamic metric analysis, custom aggregations, and interactive dashboard functionality.
+5. **Dashboard Actions & Scoping:** Configured global filtering cards across multiple worksheets to ensure seamless cross-chart interaction and synchronized data state.
+6. **Interactive Dashboard Architecture:** Implemented cross-worksheet filtering and dashboard actions to improve exploratory analysis and user navigation.
+7. **KPI Integration:** Embedded KPI summary cards to surface high-level performance indicators and key analytical takeaways.
+8. **Responsive Dashboard Design:** Configured dashboard sizing and layout behavior for improved desktop and mobile viewing compatibility.
+9. **Presentation & Formatting Optimization:** Applied custom formatting, layout alignment, and visual hierarchy adjustments to improve readability and dashboard usability.
+10. **Workflow Organization:** Structured worksheets and dashboard components into a cohesive analytical workflow for streamlined end-user interaction.
+
 
 ### How to Run Locally
 1. Clone this repository to your machine.
