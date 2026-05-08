@@ -12,11 +12,12 @@ to separate volume-based success from underlying structural advantages.
 * **Division Standings Matrix:** A clean layout visualizing final season standings and team placements.
 
 ### Data Cleaning & Technical Implementation
-The raw historical data sourced via Kaggle contained structural trailing artifacts and inconsistent string variations. The following technical optimizations were engineered directly within Tableau:
+The raw historical data sourced via Kaggle contained structural trailing artifacts, duplicate categorical entries and inconsistent string variations. The following technical optimizations were engineered directly within Tableau:
 
 1. **String Normalization:** Handled duplicate franchise entries and removed trailing asterisk markers (`*`) from raw dimensions using targeted calculation logic:
    ```tableau
    TRIM(REPLACE([Team], "*", ""))
+
    ```
 2. **Dashboard Actions & Scoping:** Configured global filtering cards across multiple worksheets to ensure seamless cross-chart interaction and synchronized data state.
 
