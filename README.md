@@ -37,7 +37,7 @@ The raw historical data sourced via Kaggle contained structural trailing artifac
 
 3. **Context Filtering:** Leveraged Tableau **Context Filters** to ensure "Top 10" calculations were applied correctly across specific season parameters.
 
-4.**Interactive Design:** Built a coordinated dashboard where selecting a team on the bar chart instantly highlights their position on the **Pace vs. SRS Scatter Plot** and **Division Standings** grid.
+ 4.**Interactive Design:** Built a coordinated dashboard where selecting a team on the bar chart instantly highlights their position on the **Pace vs. SRS Scatter Plot** and **Division    Standings** grid.
 
 ## 📖 Glossary of Metrics
 
