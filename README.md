@@ -48,6 +48,6 @@ The raw historical data sourced via Kaggle contained structural trailing artifac
 
 
 ### Data Source
-* **Kaggle Dataset:**[A Basketball Story)](https://www.kaggle.com/code/noobiedatascientist/a-basketball-story)
+* **Kaggle Dataset:**[(A Basketball Story)](https://www.kaggle.com/code/noobiedatascientist/a-basketball-story)
 
 
